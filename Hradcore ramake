@@ -1,0 +1,5 @@
+if _G.HardcoreSprintLoaded then return end
+_G.HardcoreSprintLoaded=true
+task.spawn(function()loadstring(game:HttpGet("https://raw.githubusercontent.com/localplayerr/Doors-stuff/refs/heads/main/Hardcore%20v4%20recreate/main%20code"))()end)
+task.spawn(function()loadstring(game:HttpGet("https://raw.githubusercontent.com/trungdepth-dot/Sprint-stamina-v2/refs/heads/main/Sprint",true))()end)
+pcall(function()game:GetService("TextChatService").TextChannels.RBXGeneral:DisplaySystemMessage('<font color="rgb(0,255,0)">[hardcore] script by RealblueYT and vuivuiviu2 remake</font>')end)
